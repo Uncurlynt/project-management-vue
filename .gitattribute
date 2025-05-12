@@ -1,0 +1,4 @@
+server/** linguist-vendored
+
+node_modules/** linguist-generated
+dist/**         linguist-generated
