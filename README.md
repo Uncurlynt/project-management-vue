@@ -27,7 +27,7 @@
 
 ```bash
 # 1. Склонируйте репозиторий
-git clone https://github.com/your-org/task-manager.git
+git clone github.com/Uncurlynt/project-management-vue
 cd task-manager/frontend
 
 # 2. Установите зависимости
