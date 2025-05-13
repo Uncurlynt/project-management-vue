@@ -1,29 +1,37 @@
-# project-management
+# Task Manager (Frontend)
 
-This template should help get you started developing with Vue 3 in Vite.
+Современное веб-приложение для управления задачами и проектами с досками и фильтрами, реализованное на **Vue 3**, **TypeScript**, **Pinia**, **Vuetify 3** и **Vite**.
 
-## Recommended IDE Setup
+## Основной функционал
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+- Просмотр всех задач и фильтрация по статусу/проекту
+- Визуальное управление задачами на канбан-доске
+- Создание, редактирование и удаление задач
+- Поддержка исполнителей и приоритетов
+- Поддержка темной/светлой темы
+- Удобный UX с диалоговыми окнами и уведомлениями
 
-## Customize configuration
+## Стек технологий
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+- **Vue 3** + Composition API
+- **TypeScript**
+- **Vuetify 3** (Material Design)
+- **Pinia** (состояние)
+- **Vue Router**
+- **Axios**
+- **Vite** (для сборки)
+- **vuedraggable** (drag-and-drop)
 
-## Project Setup
 
-```sh
+## Быстрый старт
+
+```bash
+# 1. Склонируйте репозиторий
+git clone https://github.com/your-org/task-manager.git
+cd task-manager/frontend
+
+# 2. Установите зависимости
 npm install
-```
 
-### Compile and Hot-Reload for Development
-
-```sh
+# 3. Запустите дев-сервер
 npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
